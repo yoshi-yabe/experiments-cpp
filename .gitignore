@@ -39,3 +39,6 @@ vcpkg_installed/
 packages/
 x64/
 *.vcxproj.user
+
+# Visual Studio Code
+.vscode/

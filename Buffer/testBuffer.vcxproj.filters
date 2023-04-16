@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="testBlockingQueue.cpp" />
+    <ClCompile Include="testTripleBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="src\BlockingQueue.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TripleBuffer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6bf1b5d8-b9c2-48a3-94ef-66efc08f6737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
